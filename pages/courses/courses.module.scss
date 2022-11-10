@@ -1,0 +1,76 @@
+.active {
+  background: green !important;
+}
+.sidebar_course :global {
+  h6 {
+    font: 500 16px 'Poppins', sans-serif;
+  }
+  ul {
+    li.active a {
+      font-weight: 700;
+    }
+
+    li {
+      padding: 10px 0;
+      border-bottom: 1px solid #e4e4e4;
+
+      a,
+      a:focus {
+        color: #828282;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+  }
+}
+.course_content :global {
+  padding-left: 35px;
+  .top_wrapper {
+    .title {
+      background: linear-gradient(
+        to right,
+        #556fff,
+        #556fff,
+        #e05fc4,
+        #f767a6,
+        #ff798e
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 18px;
+    }
+
+    .subtitle {
+      color: #232323;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+
+      span {
+        font-size: inherit;
+        margin-left: 6px;
+        font-weight: 600;
+      }
+    }
+  }
+  h4 {
+    color: #828282;
+    font-weight: 400;
+    b {
+      font-weight: 600;
+      margin-right: 5px;
+    }
+  }
+
+  .main_title {
+    font-weight: 500;
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}

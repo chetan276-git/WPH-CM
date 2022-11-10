@@ -1,0 +1,67 @@
+.overlap_section :global {
+  .wrapper_innner {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4rem 5rem;
+    margin-top: -60px;
+    z-index: 2;
+    box-shadow: 0 0 30px rgb(0 0 0 / 8%);
+
+    h4 {
+      font-size: 2rem;
+      font-weight: 600;
+      border-right: 1px solid #e4e4e4;
+      display: inline;
+      padding-right: 30px;
+      background-image: linear-gradient(
+        to right,
+        #ff9e78,
+        #ff9979,
+        #ff887c,
+        #ff7c7d,
+        #ff767e
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .txt-clip {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    ul {
+      li {
+        font-size: 1.5rem;
+        color: #828282;
+        letter-spacing: 0.8px;
+
+        &:not(:last-child) {
+          a {
+            padding: 0 30px;
+            border-right: 1px solid #e4e4e4;
+          }
+
+          a {
+            color: #828282;
+            &:hover {
+              color: var(--blue-800);
+            }
+          }
+          a.active {
+            font-weight: 700;
+          }
+        }
+        &:last-child {
+          padding-left: 30px;
+          padding-right: 0;
+        }
+      }
+    }
+    select {
+      width: 60%;
+    }
+  }
+}

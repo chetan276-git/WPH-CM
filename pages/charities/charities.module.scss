@@ -1,0 +1,77 @@
+.donation_content :global {
+  .content_wrapper {
+    .sub-heading {
+      padding-left: 80px;
+
+      &::after {
+        content: '';
+        width: 15%;
+        height: 0.3px;
+        background: #0038e3;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+      }
+    }
+    .button_wrapper div {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    .linear_btn {
+      transition: 0.5s;
+      background-size: 200% auto;
+      display: block;
+      letter-spacing: 0.6px;
+      white-space: nowrap;
+      border-radius: 2px;
+      line-height: 1.5;
+      padding: 8px 26px;
+      font-size: 12px;
+
+      a {
+        color: var(--white-clr);
+      }
+
+      &:hover {
+        background-position: right center;
+        color: var(--white-clr) !important;
+      }
+    }
+  }
+}
+
+.donation_tables :global {
+  background: #f7f7f7;
+  padding: 80px 0;
+
+  .table_content {
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+    .title {
+      background: linear-gradient(
+        to right,
+        #556fff,
+        #556fff,
+        #e05fc4,
+        #f767a6,
+        #ff798e
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 16px;
+    }
+    .address_phone {
+      p {
+        margin-bottom: 0;
+      }
+    }
+    table {
+      .t-heading {
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+}

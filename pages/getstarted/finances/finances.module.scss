@@ -1,0 +1,24 @@
+.finance_page :global {
+  .banner-inner-pages {
+    h1 {
+      background: linear-gradient(
+        to right,
+        #ffffff,
+        #ffffff,
+        #e0d9c2,
+        #d8c482,
+        #d8c482
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .overlap_section {
+    padding: 3rem;
+    ul {
+      li {
+        padding: 0 20px;
+      }
+    }
+  }
+}

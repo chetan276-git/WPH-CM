@@ -1,0 +1,388 @@
+.swiper_wrapper {
+  min-height: 100vh;
+
+  @media screen and (min-width: 1400px) {
+    & {
+      min-height: 80vh;
+    }
+  }
+
+  .swiper_slide {
+    cursor: all-scroll;
+
+    .slider_content {
+      background-size: cover;
+      background-position: top;
+      color: var(--white-clr);
+
+      span {
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+      }
+      h1 {
+        margin-top: 3.5rem;
+        text-shadow: 0 0 50px rgb(0 0 0 / 90%);
+        font: 800 10rem/10rem 'Poppins', sans-serif;
+        letter-spacing: -2px;
+      }
+    }
+  }
+}
+section.grand_master {
+  background: #faf6f3;
+}
+section.pranic_healing {
+  margin-top: 8rem;
+  color: var(--gray-clr);
+  font-family: 'Poppins', sans-serif;
+
+  .aspects_of_life {
+    padding-top: 10rem;
+
+    .feature_box {
+      padding: 4.5rem 1.5rem;
+      border: 1px solid #e4e4e4;
+      transition: 0.4s;
+
+      &:hover {
+        border-color: transparent !important;
+        transform: translate3d(0, -3px, 0);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      }
+      svg {
+        width: 5rem;
+        margin-bottom: 5rem;
+      }
+
+      span {
+        color: var(--black-500);
+      }
+      p {
+        color: var(--gray-clr);
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+section.join_us :global {
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+  }
+  .list_mediation {
+    li {
+      p {
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+    }
+  }
+  .form-wrapper {
+    input {
+      border: 0px;
+      border: 1px solid #a6a6a6;
+      padding: 18px 25px 19px;
+      height: 5rem;
+      color: #a6a6a6;
+      font-size: 1.6rem;
+      font-family: 'poppins';
+      outline: none;
+      &:focus {
+        box-shadow: none;
+        outline: none;
+      }
+
+      &::placeholder {
+        color: inherit;
+        font-size: inherit;
+      }
+    }
+    .button-wrapper {
+      .see_video {
+        margin-left: 3rem;
+        border-bottom: 1px solid #333045;
+        color: #333045;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .image-wrapper {
+    padding-left: 5rem;
+    .w-7 {
+      width: 70%;
+    }
+    .overlay-image {
+      width: 60%;
+      right: 0;
+      bottom: 0%;
+    }
+  }
+}
+section.dont_miss_out :global {
+  padding: 12% 0;
+  .content-wrapper {
+    h3 {
+      font-size: 5.46rem;
+      line-height: 5.88rem;
+    }
+    p {
+      color: rgb(255, 255, 255, 0.6);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+    }
+  }
+}
+section.online_shop :global {
+  h3 {
+    font-size: 3.9rem;
+  }
+  .row-wrapper {
+    margin-top: 7rem;
+  }
+  .grid-display {
+    gap: 20px;
+  }
+  .books-wrapper {
+    overflow: hidden;
+
+    .arrow_circle {
+      width: 4rem;
+      height: 4rem;
+      background: #c89965;
+      bottom: 5%;
+      left: 50%;
+      transform: translate(-50%);
+      transition: 0.5s;
+    }
+    .overlay-wrapper {
+      left: 0;
+      bottom: 0;
+      height: 0%;
+      opacity: 0;
+      background: linear-gradient(to top, #333045, rgba(51, 48, 69, 0.3) 80%);
+      padding: 3rem;
+      transition: 0.3s;
+      a {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        padding: 7px 18px;
+        background: #c89965;
+
+        color: #ffffff;
+        border-color: #c89965;
+      }
+    }
+    &:hover .overlay-wrapper {
+      opacity: 1;
+      height: 100%;
+      z-index: 3;
+    }
+    &:hover .arrow_circle {
+      bottom: -25%;
+      display: none;
+    }
+  }
+}
+section.upcomg_courses :global {
+  background: #faf6f3;
+  .heading-title {
+    h3 {
+      font-size: 3.22rem;
+    }
+    span {
+      color: #333045;
+      font-size: 1.4rem;
+      border-bottom: 1px solid #333045;
+      cursor: pointer;
+      transition-delay: 0.3s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .card {
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    .img-wrap {
+      .label {
+        right: 0;
+        bottom: -5%;
+        background: var(--dark-orange);
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+      }
+    }
+
+    .card-body {
+      padding: 5rem 0 3rem 0;
+
+      .inner-content {
+        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+
+        .card-title {
+          font-family: 'Poppins', sans-serif;
+          width: 98%;
+        }
+      }
+
+      a {
+        color: #333045;
+        &:hover,
+        &:hover svg {
+          color: blue;
+          stroke: blue;
+        }
+      }
+    }
+  }
+}
+section.contact_us :global {
+  background: #fff;
+  .page-heading {
+    color: var(--black-500) !important;
+  }
+  .row:last-child {
+    margin-top: 5rem;
+  }
+  .contact-details {
+    ul {
+      li {
+        gap: 2.5rem;
+        .icon-circle {
+          width: 4rem;
+          height: 4rem;
+          line-height: 3.6rem;
+          svg {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+        }
+        p:first-line {
+          line-height: 2rem;
+        }
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+  form {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper_wrapper {
+    min-height: 55vh;
+
+    .swiper_slide {
+      .slider_content {
+        h1 {
+          font: 800 5.5rem/5.5rem 'Poppins', sans-serif;
+        }
+      }
+    }
+  }
+  section.big_section :global {
+    .overlap_section {
+      .linear_btn {
+        margin-top: 1.5rem;
+      }
+    }
+    .overlap_gap_section {
+      h3 {
+        font-size: 2.53rem;
+        line-height: 3.2rem;
+      }
+    }
+  }
+  section.join_us :global {
+    h3 {
+      font-size: 3rem;
+      line-height: 3.7rem;
+    }
+  }
+
+  section.dont_miss_out :global {
+    .content-wrapper {
+      h3 {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+    }
+  }
+
+  section.online_shop :global {
+    .books-wrapper {
+      height: calc(100% - 3px);
+    }
+  }
+
+  section.upcomg_courses :global {
+    .heading-title {
+      h3 {
+        font-size: 2.53rem;
+        line-height: 3.2rem;
+      }
+      span {
+        margin-top: 2rem;
+      }
+    }
+  }
+  section.contact_us :global {
+    h3 {
+      font-size: 2.53rem;
+      line-height: 3.2rem;
+    }
+    .head-office {
+      font-size: 2rem;
+    }
+    form {
+      max-width: 100%;
+    }
+    .iframe-wrapper {
+      margin-top: 5rem;
+      height: 70vh !important;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  section.big_section {
+    .overlap_section {
+      text-align: center;
+      ul {
+        li {
+          padding: 0;
+          &:not(:last-child) {
+            border-right: 0;
+          }
+          &:last-child {
+            margin-top: 2.5rem;
+          }
+        }
+      }
+    }
+    .overlap_gap_section {
+      margin-top: 5rem;
+    }
+  }
+  section.join_us :global {
+    .image-wrapper {
+      margin-top: 5rem;
+      padding-left: 0rem;
+      .w-7 {
+        width: 80%;
+      }
+      .overlay-image {
+        width: 80%;
+        margin: -15% 0 0 auto;
+        position: unset !important;
+        border: 0;
+      }
+    }
+  }
+}

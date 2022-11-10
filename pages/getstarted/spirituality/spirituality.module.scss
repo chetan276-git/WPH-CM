@@ -1,0 +1,24 @@
+.spirituality :global {
+  .banner-inner-pages {
+    h1 {
+      background: linear-gradient(
+        to right,
+        #ffffff,
+        #ffffff,
+        #ffffff,
+        #b2dbf7,
+        #7bcaff
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .overlap_section {
+    padding: 3rem;
+    ul {
+      li {
+        padding: 0 15px;
+      }
+    }
+  }
+}

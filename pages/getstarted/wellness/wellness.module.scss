@@ -1,0 +1,17 @@
+.wellness :global {
+  .overlap_section {
+    .col-md-2 {
+      width: 15%;
+    }
+    .col-md-10 {
+      width: 85%;
+    }
+  }
+}
+section.energy_heading :global {
+  .main-image {
+    img {
+      border-radius: 10px;
+    }
+  }
+}

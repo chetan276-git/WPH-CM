@@ -1,0 +1,35 @@
+.orange_btn :global {
+  .linear_btn {
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--white-clr);
+    display: block;
+    letter-spacing: 0.6px;
+    white-space: nowrap;
+    border-radius: 2px;
+    line-height: 1.5;
+
+    &:hover {
+      background-position: right center;
+      color: var(--white-clr) !important;
+    }
+  }
+
+  .btn-small {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  .btn-medium {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    padding: 10px 24px;
+  }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}

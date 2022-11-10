@@ -1,0 +1,31 @@
+.relationships_page :global {
+  .banner-inner-pages {
+    h1 {
+      background-image: url('/images/back-pink.webp');
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+  .overlap_section {
+    padding: 3rem;
+    ul {
+      li {
+        padding: 0 14px;
+      }
+    }
+  }
+}
+.relationship_courses :global {
+  background: #f7f7f7;
+  .course_thumbnail {
+    .content_wrapper {
+      box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+      h6 {
+        font-size: 16px;
+      }
+    }
+  }
+}

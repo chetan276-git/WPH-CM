@@ -1,0 +1,137 @@
+.find_course :global {
+  background: var(--gray-500);
+
+  .table-data {
+    .bloc-tabs {
+      gap: 4rem;
+    }
+    .tabs {
+      padding: 0.8rem 0rem;
+      cursor: pointer;
+      box-sizing: content-box;
+      position: relative;
+      outline: none;
+      border: none !important;
+      background: transparent;
+      color: #828282;
+      transition: 0.6s;
+
+      &:after {
+        content: '';
+        width: 0%;
+        height: 0.2rem;
+        background: #000;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        transition: 0.6s;
+      }
+      &:hover {
+        color: #000000;
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+    .active-tabs {
+      &::after {
+        content: '';
+        width: 100%;
+        height: 0.2rem;
+        background: #000;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        transition: 0.6s;
+      }
+      color: #000;
+    }
+
+    .content {
+      display: none;
+    }
+    .active-content {
+      display: block;
+    }
+  }
+  .physical_reactPagination__w0_to {
+    margin-top: 30px;
+    ul {
+      li {
+        a {
+          padding: 5px 12px;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+      .selected {
+        a {
+          background: #000;
+        }
+      }
+    }
+  }
+}
+.table_pro :global {
+  .table {
+    tr {
+      color: #212529;
+      th {
+        padding: 1.5rem 1rem;
+        &:first-child {
+          width: 12%;
+        }
+        &:nth-child(2) {
+          width: 15%;
+        }
+        &:nth-child(3) {
+          width: 20%;
+        }
+        &:nth-child(4) {
+          width: 8%;
+        }
+        &:nth-child(5) {
+          width: 20%;
+        }
+        &:last-child {
+          width: 8%;
+        }
+      }
+      td {
+        padding: 1.3rem 0.8rem;
+        a {
+          color: #828282;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .find_course :global {
+    .table-data {
+      .bloc-tabs {
+        gap: 2rem;
+        margin: 3rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .tabs {
+        width: 45% !important;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .table_pro :global {
+    .pysical {
+      min-width: 275vw;
+    }
+    .higher {
+      min-width: 200vw;
+    }
+    .online {
+      min-width: 200vw;
+    }
+  }
+}

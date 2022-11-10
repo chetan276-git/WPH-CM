@@ -1,0 +1,47 @@
+.blog_articles :global {
+  h3 {
+    font-size: 4rem;
+  }
+  .card-group {
+    .card {
+      padding-bottom: 2rem;
+      .card-body {
+        width: calc(100% - 50px);
+        min-height: 200px;
+        margin-top: -60px !important;
+        box-shadow: 0 0 30px rgb(0 0 0 / 8%);
+        transition: transform 0.2s ease-out;
+
+        span {
+          letter-spacing: 1.5px;
+        }
+        a {
+          color: var(--black-500);
+          font: 400 1.8rem/1rem 'Poppins', sans-serif;
+        }
+      }
+      .card-img-top {
+        transition: opacity 0.2s ease-in;
+      }
+      &:hover {
+        .card-img-top {
+          opacity: 0.6;
+        }
+        .card-body {
+          transform: translateY(-20px) !important;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 3.35rem;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .container-fluid {
+      width: 1320px !important;
+      margin: 0 auto;
+    }
+  }
+}

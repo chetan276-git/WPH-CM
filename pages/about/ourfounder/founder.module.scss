@@ -1,0 +1,19 @@
+main.founder :global {
+  .founder_banner {
+    min-height: 100vh;
+
+    .circle_style {
+      width: 50%;
+      height: 50%;
+      top: -13%;
+      left: -13%;
+    }
+  }
+  .grand_master {
+    .inner_content {
+      span {
+        color: var(--blue-800);
+      }
+    }
+  }
+}
