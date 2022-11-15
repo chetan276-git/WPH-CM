@@ -1,0 +1,70 @@
+.research_page :global {
+  .banner-inner-pages {
+    h1 {
+      background-image: url('/images/back-pink.webp');
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+  .overlap_section {
+    padding: 3rem;
+    ul {
+      li {
+        padding: 0 14px;
+      }
+    }
+  }
+}
+.research_courses :global {
+  background: #fff;
+  .course_thumbnail {
+    cursor: pointer;
+    .content_wrapper {
+      padding:5px;
+      h6 {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      p{
+        font-size: 14px;
+        line-height: 1.8;
+        margin: 20px 0;
+      }
+    }
+      }
+  }
+
+.Ongoing_research :global {
+  background:#f7f7f7;
+  margin-top: 100px;
+  .container-fluid{
+    margin: 0 60px;
+  }
+  .margin-five-bottom {
+    margin-bottom: 3%;
+}
+  .OngoingShadow{
+    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+    padding: 30px 30px;
+    width: 28% !important;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    border-radius: 4px;
+  }
+  .content_title {
+    padding-left: 10px;
+    margin-top: -9px;
+      h6 {
+        font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+}
+  span, a{
+    font-size:12px;
+    color: #828282;
+  }
+  }
+}

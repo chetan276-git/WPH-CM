@@ -233,7 +233,7 @@ const Header = () => {
                               </div>
                             </li>
                             <li>
-                              <Link href='#'>Research</Link>
+                              <Link href='/magazine/research'>Research</Link>
                             </li>
                             <li>
                               <Link href='#'>News</Link>
