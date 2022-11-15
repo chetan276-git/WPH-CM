@@ -7,58 +7,53 @@ import Layout from '../../layout';
 import LabelBox from '/component/LabelBox/labelbox';
 import ButtonPrimary from '/component/buttons/linkbtn';
 
-const AdvancedPranicHealing = () => {
+const PsychicSelfDefense = () => {
   const BasicPranicHealing = [
     {
-      title: 'ADVANCE PRANIC HEALING (LEVEL 2)',
-      subtitle: 'Miracles through colour prana',
-      duration: '2 days',
-      prerequisite: '16 years and above',
+      title: 'PSYCHIC SELF DEFENSE (LEVEL 5)',
+      subtitle: 'Experience the world of prana',
+      duration: '2 days (16 hrs)',
+      prerequisite: 'Pranic Psychotherapy (level 3)',
       eligibility: 'Advanced Pranic Healing (level 2)',
       details: [
         {
           title: 'Course Descriptor',
           content:
-            'Learn how to utilize color prana for quicker and more effective healing results. It is an advance workshop for those seeking to become effective healers',
+            'Psychic Self-Defense uses scientific method of utilizing energies to protect oneself, family, and belongings from psychic attacks, negative intentions and energetic pollution. Highly recommend course for energy workers and those who work in stressful environment.',
         },
         {
-          title: 'What are the benefits?',
+          title: 'Course Outline',
           list: [
             {
-              listcontent: 'Advanced techniques to access higher energy frequencies safely.',
+              listcontent: 'Protect oneself and loved ones from intrusions and psychic attack using shielding technique',
             },
             {
-              listcontent: 'Color prana creates a more focused effect on the energy field and the chakras .',
-            },
-            {
-              listcontent:
-                'Learn right proportion, colour combinations and degree of hue of coloured prana.',
-            },
-            {
-              listcontent: 'Detailed methods to work with cancer, tumors, diabetes, arthritics, heart and other chronic ailments.',
-            },
-            {
-              listcontent: 'Powerful healing techniques: Rapid Healing of Wounds, Cellular Regeneration, Cleansing of the Internal Organs, Cleansing of the Blood and other techniques to boost the immune system.',
+              listcontent: 'Learn to safeguard your home, business, workplace, finances and family',
             },
             {
               listcontent:
-                'Advanced Aura Cleansing and Instructive Healing',
+                'Maintain inner peace and calm in the midst of chaos',
             },
             {
-              listcontent: 'Enhancing your healing power about 70% over Basic Pranic Healing; shorten healing time and much more',
+              listcontent: 'Understanding how psychic attacks are launched and learn to protect from them',
             },
             {
-              listcontent: 'Meditation on Twin Hearts with Self-healing',
+              listcontent: 'Techniques to divert negative thought forms, emotions and energies from within and others',
+            },
+            {
+              listcontent:
+                'Understanding the principles of harmony, love, non-injury and law of karma to make permanent energy shields against psychic attacks.',
             }
           ],
-        }
+        },
+
       ],
     },
   ];
 
   return (
     <>
-      <Layout title='Basic Pranic Healing'>
+      <Layout title='World Pranic Healing'>
         <section
           className='banner-inner-pages'
           style={{
@@ -70,7 +65,7 @@ const AdvancedPranicHealing = () => {
           <div className='container'>
             <div className='row'>
               <div className='col text-center '>
-                <h1 className='d-inline text-white'>ADVANCED PRANIC HEALING</h1>
+                <h1 className='d-inline text-white'>PSYCHIC SELF DEFENSE</h1>
               </div>
             </div>
           </div>
@@ -88,7 +83,7 @@ const AdvancedPranicHealing = () => {
                 <div className='header_wrapper border-bottom pb-4'>
                   <div className='top_wrapper mb-4'>
                     <h5 className='title mb-0'>{cval.title.toUpperCase()}</h5>
-                    <h6 className='subtitle'>
+                    {/* <h6 className='subtitle'>
                       <i>
                         {cval.subtitle.substring(
                           0,
@@ -96,15 +91,15 @@ const AdvancedPranicHealing = () => {
                         )}
                         <span>{cval.subtitle.split(' ').pop()}</span>
                       </i>
-                    </h6>
+                    </h6> */}
                   </div>
                   <h4>
                     <b>Duration:</b>
                     {cval.duration}
                   </h4>
                   <h4>
-                    <b>Eligibility:</b>
-                    {cval.eligibility}
+                    <b>Prerequisite:</b>
+                    {cval.prerequisite}
                   </h4>
                 </div>
 
@@ -154,4 +149,4 @@ const AdvancedPranicHealing = () => {
   );
 };
 
-export default AdvancedPranicHealing;
+export default PsychicSelfDefense;

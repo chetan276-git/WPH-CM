@@ -5,6 +5,7 @@ import style from '../courses.module.scss';
 import LayoutCourse from '../layout';
 import Layout from '../../layout';
 import LabelBox from '/component/LabelBox/labelbox';
+import ButtonPrimary from '/component/buttons/linkbtn';
 
 const BasicPranicHealing = () => {
   const BasicPranicHealing = [

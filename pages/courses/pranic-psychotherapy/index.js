@@ -7,58 +7,57 @@ import Layout from '../../layout';
 import LabelBox from '/component/LabelBox/labelbox';
 import ButtonPrimary from '/component/buttons/linkbtn';
 
-const AdvancedPranicHealing = () => {
+const PranicPsychotherapy = () => {
   const BasicPranicHealing = [
     {
-      title: 'ADVANCE PRANIC HEALING (LEVEL 2)',
-      subtitle: 'Miracles through colour prana',
-      duration: '2 days',
+      title: 'PRANIC PSYCHOTHERAPY (LEVEL 3)',
+      subtitle: 'Experience the world of prana',
+      duration: '2 days (16 hours)',
       prerequisite: '16 years and above',
       eligibility: 'Advanced Pranic Healing (level 2)',
       details: [
         {
           title: 'Course Descriptor',
           content:
-            'Learn how to utilize color prana for quicker and more effective healing results. It is an advance workshop for those seeking to become effective healers',
+            'Level 3 is a specialized workshop focusing how to heal emotional and mental imbalances. More advanced techniques to work with psychological disorders and unhealthy patterns',
         },
         {
-          title: 'What are the benefits?',
+          title: 'What will you learn?',
           list: [
             {
-              listcontent: 'Advanced techniques to access higher energy frequencies safely.',
+              listcontent: 'Identifying negative emotions and trauma lodged in the aura and chakras.',
             },
             {
-              listcontent: 'Color prana creates a more focused effect on the energy field and the chakras .',
-            },
-            {
-              listcontent:
-                'Learn right proportion, colour combinations and degree of hue of coloured prana.',
-            },
-            {
-              listcontent: 'Detailed methods to work with cancer, tumors, diabetes, arthritics, heart and other chronic ailments.',
-            },
-            {
-              listcontent: 'Powerful healing techniques: Rapid Healing of Wounds, Cellular Regeneration, Cleansing of the Internal Organs, Cleansing of the Blood and other techniques to boost the immune system.',
+              listcontent: 'Removing negative programming preventing your success .',
             },
             {
               listcontent:
-                'Advanced Aura Cleansing and Instructive Healing',
+                'Advanced extraction techniques for Phobias, Compulsions, Addictions and Depression.',
             },
             {
-              listcontent: 'Enhancing your healing power about 70% over Basic Pranic Healing; shorten healing time and much more',
+              listcontent: 'Self-healing for Stress, Anger, Greif, Irritability, Anxiety and more.',
             },
             {
-              listcontent: 'Meditation on Twin Hearts with Self-healing',
+              listcontent: 'Repairing damaged or cracked protective webs in the chakras .',
+            },
+            {
+              listcontent:
+                'Powerful Shielding technique to protect your aura and chakras',
+            },
+            {
+              listcontent:
+                'Twin Hearts Meditation with Chakral Healing',
             }
           ],
-        }
+        },
+
       ],
     },
   ];
 
   return (
     <>
-      <Layout title='Basic Pranic Healing'>
+      <Layout title='World Pranic Healing'>
         <section
           className='banner-inner-pages'
           style={{
@@ -70,7 +69,7 @@ const AdvancedPranicHealing = () => {
           <div className='container'>
             <div className='row'>
               <div className='col text-center '>
-                <h1 className='d-inline text-white'>ADVANCED PRANIC HEALING</h1>
+                <h1 className='d-inline text-white'>PRANIC PSYCHOTHERAPY</h1>
               </div>
             </div>
           </div>
@@ -88,7 +87,7 @@ const AdvancedPranicHealing = () => {
                 <div className='header_wrapper border-bottom pb-4'>
                   <div className='top_wrapper mb-4'>
                     <h5 className='title mb-0'>{cval.title.toUpperCase()}</h5>
-                    <h6 className='subtitle'>
+                    {/* <h6 className='subtitle'>
                       <i>
                         {cval.subtitle.substring(
                           0,
@@ -96,7 +95,7 @@ const AdvancedPranicHealing = () => {
                         )}
                         <span>{cval.subtitle.split(' ').pop()}</span>
                       </i>
-                    </h6>
+                    </h6> */}
                   </div>
                   <h4>
                     <b>Duration:</b>
@@ -154,4 +153,4 @@ const AdvancedPranicHealing = () => {
   );
 };
 
-export default AdvancedPranicHealing;
+export default PranicPsychotherapy;

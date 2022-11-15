@@ -20,19 +20,19 @@ const SidebarCourses = () => {
     },
     {
       linkname: 'Pranic Psychotherapy',
-      path: '#',
+      path: '/courses/pranic-psychotherapy',
     },
     {
       linkname: 'Pranic Crystal Healing',
-      path: '#',
+      path: '/courses/pranic-crystal-healing',
     },
     {
       linkname: 'Psychic Self Defense',
-      path: '#',
+      path: '/courses/psychic-self-defense',
     },
     {
       linkname: 'Pranic Facelift & Body Sculpting',
-      path: '#',
+      path: '/courses/pranic-facelift-&-body-sculpting',
     },
     {
       linkname: 'Achieving oneness with Higher Soul',

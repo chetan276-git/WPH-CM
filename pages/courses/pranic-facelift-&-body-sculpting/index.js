@@ -7,58 +7,53 @@ import Layout from '../../layout';
 import LabelBox from '/component/LabelBox/labelbox';
 import ButtonPrimary from '/component/buttons/linkbtn';
 
-const AdvancedPranicHealing = () => {
+const PranicFaceliftBody = () => {
   const BasicPranicHealing = [
     {
-      title: 'ADVANCE PRANIC HEALING (LEVEL 2)',
-      subtitle: 'Miracles through colour prana',
-      duration: '2 days',
-      prerequisite: '16 years and above',
+      title: 'PRANIC FACELIFT AND BODY SCULPTING',
+      subtitle: 'Experience the world of prana',
+      duration: '2 days (16 hrs)',
+      prerequisite: ' Pranic Crystal Healing',
       eligibility: 'Advanced Pranic Healing (level 2)',
       details: [
         {
           title: 'Course Descriptor',
           content:
-            'Learn how to utilize color prana for quicker and more effective healing results. It is an advance workshop for those seeking to become effective healers',
+            'This is specialized workshop for facial rejuvenation, beauty and health. Combing the techniques of Advance Healing, Pranic Crystal and Psychotherapy your skin can look younger, radiant and healthy. Lose excess body weight without surgery, medicine or excess exercise. You can see changes in face and body in weeks’ time.',
         },
         {
-          title: 'What are the benefits?',
+          title: 'Course Outline',
           list: [
             {
-              listcontent: 'Advanced techniques to access higher energy frequencies safely.',
+              listcontent: 'Create a younger and brighter looking skin',
             },
             {
-              listcontent: 'Color prana creates a more focused effect on the energy field and the chakras .',
-            },
-            {
-              listcontent:
-                'Learn right proportion, colour combinations and degree of hue of coloured prana.',
-            },
-            {
-              listcontent: 'Detailed methods to work with cancer, tumors, diabetes, arthritics, heart and other chronic ailments.',
-            },
-            {
-              listcontent: 'Powerful healing techniques: Rapid Healing of Wounds, Cellular Regeneration, Cleansing of the Internal Organs, Cleansing of the Blood and other techniques to boost the immune system.',
+              listcontent: 'Remove the wrinkles, dark circles and pimples',
             },
             {
               listcontent:
-                'Advanced Aura Cleansing and Instructive Healing',
+                'Heal the organs connected with facial rejuvenation',
             },
             {
-              listcontent: 'Enhancing your healing power about 70% over Basic Pranic Healing; shorten healing time and much more',
+              listcontent: 'Remove the negative emotions that contribute to weight gain',
             },
             {
-              listcontent: 'Meditation on Twin Hearts with Self-healing',
+              listcontent: 'Disintegrate the energies that manifest as aging',
+            },
+            {
+              listcontent:
+                'Integrate Twin Hearts Meditation to accelerate the healing process',
             }
           ],
-        }
+        },
+
       ],
     },
   ];
 
   return (
     <>
-      <Layout title='Basic Pranic Healing'>
+      <Layout title='World Pranic Healing'>
         <section
           className='banner-inner-pages'
           style={{
@@ -70,7 +65,7 @@ const AdvancedPranicHealing = () => {
           <div className='container'>
             <div className='row'>
               <div className='col text-center '>
-                <h1 className='d-inline text-white'>ADVANCED PRANIC HEALING</h1>
+                <h1 className='d-inline text-white'>PRANIC FACELIFT & BODY SCULPTING</h1>
               </div>
             </div>
           </div>
@@ -88,7 +83,7 @@ const AdvancedPranicHealing = () => {
                 <div className='header_wrapper border-bottom pb-4'>
                   <div className='top_wrapper mb-4'>
                     <h5 className='title mb-0'>{cval.title.toUpperCase()}</h5>
-                    <h6 className='subtitle'>
+                    {/* <h6 className='subtitle'>
                       <i>
                         {cval.subtitle.substring(
                           0,
@@ -96,15 +91,15 @@ const AdvancedPranicHealing = () => {
                         )}
                         <span>{cval.subtitle.split(' ').pop()}</span>
                       </i>
-                    </h6>
+                    </h6> */}
                   </div>
                   <h4>
                     <b>Duration:</b>
                     {cval.duration}
                   </h4>
                   <h4>
-                    <b>Eligibility:</b>
-                    {cval.eligibility}
+                    <b>Prerequisite:</b>
+                    {cval.prerequisite}
                   </h4>
                 </div>
 
@@ -154,4 +149,4 @@ const AdvancedPranicHealing = () => {
   );
 };
 
-export default AdvancedPranicHealing;
+export default PranicFaceliftBody;

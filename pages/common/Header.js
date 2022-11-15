@@ -109,13 +109,13 @@ const Header = () => {
                                 </Link>
                               </li>
                               <li>
-                                <Link href='#'>Pranic Psychotherapy</Link>
+                                <Link href='/courses/pranic-psychotherapy'>Pranic Psychotherapy</Link>
                               </li>
                               <li>
-                                <a href='#'>Crystal Healing</a>
+                                <a href='/courses/pranic-crystal-healing'>Crystal Healing</a>
                               </li>
                               <li>
-                                <a href='#'>Psychic Self Defense</a>
+                                <a href='/courses/psychic-self-defense'>Psychic Self Defense</a>
                               </li>
                             </ul>
                             <h4 className='title'>Prosperity</h4>
